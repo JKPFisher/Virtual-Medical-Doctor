@@ -42,7 +42,6 @@
             android:layout_marginTop="200dp"
             android:layout_marginEnd="2.5dp"
             android:autofillHints=""
-            android:contentDescription="@string/email"
             android:ems="10"
             android:hint="@string/email_address"
             android:inputType="textEmailAddress"
