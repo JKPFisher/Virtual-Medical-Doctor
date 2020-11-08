@@ -10,6 +10,7 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+        android:id="@+id/secondBg"
         android:layout_width="match_parent"
         android:layout_height="643dp"
         android:layout_marginStart="10dp"
@@ -41,6 +42,7 @@
             android:layout_marginTop="200dp"
             android:layout_marginEnd="2.5dp"
             android:autofillHints=""
+            android:contentDescription="@string/email"
             android:ems="10"
             android:hint="@string/email_address"
             android:inputType="textEmailAddress"
@@ -52,6 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="250dp"
             android:autofillHints=""
+            android:contentDescription="@string/password"
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword"
