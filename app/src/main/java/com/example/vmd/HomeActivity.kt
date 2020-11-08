@@ -10,10 +10,10 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val textview : TextView= findViewById<TextView>(R.id.textView)
+        val textview : TextView= findViewById<TextView>(R.id.textView2)
         val intent : Intent = getIntent()
         val msg : String? = intent.getStringExtra( "name")
-        textview.setText("Hello Android"+msg)
+        textview.setText("Hello Android "+msg)
     }
 
 }
