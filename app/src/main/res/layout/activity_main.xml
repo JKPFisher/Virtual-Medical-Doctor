@@ -27,7 +27,7 @@
             android:layout_height="170dp"
             android:layout_margin="20dp"
             android:layout_marginTop="16dp"
-            android:contentDescription="@string/yellow_star"
+            android:contentDescription="@string/vmd_logo"
             app:srcCompat="@drawable/df" />
 
         <EditText
@@ -40,7 +40,7 @@
             android:ems="10"
             android:hint="@string/email_address"
             android:inputType="textEmailAddress"
-            android:labelFor="@id/EmailAddress" />
+             />
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -48,14 +48,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="250dp"
             android:autofillHints=""
-            android:contentDescription="@string/password"
             android:ems="10"
             android:hint="@string/password"
-            android:inputType="textPassword"
-            android:labelFor="@id/editTextTextPassword" />
+            android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/loginbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="350dp"
