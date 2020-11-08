@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Virtual Medical Doctor</string>
+    <string name="name">Virtual Medical Doctor</string>
+    <string name="yellow_star">logo</string>
+    <string name="textview">Login screen</string>
+    <string name="login_button">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+
+
+</resources>
