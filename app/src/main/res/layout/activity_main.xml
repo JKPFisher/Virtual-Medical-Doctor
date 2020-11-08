@@ -12,17 +12,12 @@
     <FrameLayout
         android:id="@+id/secondBg"
         android:layout_width="match_parent"
-        android:layout_height="643dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_height="639dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="50dp"
-        android:background="@android:drawable/screen_background_light"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/frthistime"
         android:fadeScrollbars="true"
         android:fadingEdge="horizontal|vertical"
-        android:fadingEdgeLength="200dp"
         android:requiresFadingEdge="horizontal">
 
 
@@ -86,6 +81,7 @@
             android:layout_marginTop="520dp"
             android:text="@string/create_an_account"
             app:backgroundTint="@color/purple" />
+
     </FrameLayout>
 
 
