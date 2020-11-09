@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Virtual Medical Doctor</string>
+    <string name="app_name">Virtual Medical Center</string>
     <string name="yellow_star">logo</string>
     <string name="login_button">Login</string>
     <string name="email_address">Email Address</string>
