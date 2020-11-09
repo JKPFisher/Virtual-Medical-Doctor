@@ -20,7 +20,7 @@
         android:requiresFadingEdge="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/backbuttonsignup"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@android:drawable/ic_menu_revert" />

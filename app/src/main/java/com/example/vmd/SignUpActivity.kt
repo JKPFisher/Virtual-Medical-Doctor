@@ -13,7 +13,14 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_signup)
         val intent : Intent = getIntent()
 
+        val back_button :Button = findViewById<Button>(R.id.backbuttonsignup)
 
+        back_button.setOnClickListener{
+
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 
 
