@@ -7,13 +7,17 @@
     <string name="create_an_account">Create an Account</string>
     <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
     <string name="vmd_logo">VMD logo</string>
-    <string name="OpeningText">This is the home page after u log in</string>
+    <string name="OpeningText">How are you doing today?</string>
     <string name="button">Sign Out</string>
 
     <string name="sign_up">Sign up</string>
     <string name="textbox2signup">Create your account by filling up the form below</string>
     <string name="re_enter_password">Re-Enter password</string>
     <string name="logout">Logout</string>
-
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="createappt">Create an appointment</string>
+    <string name="reminders">Reminders</string>
+    <string name="type_here">Type here...</string>
+    <string name="question_one">What symptoms are you feeling?</string>
 
 </resources>

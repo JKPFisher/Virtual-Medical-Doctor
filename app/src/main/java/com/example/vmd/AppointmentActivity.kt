@@ -6,15 +6,14 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class HomeActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?){
+class AppointmentActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
-
-       val textview : TextView= findViewById<TextView>(R.id.textView2)
+        setContentView(R.layout.activity_appointment)
+        val textview : TextView = findViewById<TextView>(R.id.textView2)
         val intent : Intent = getIntent()
         val msg : String? = intent.getStringExtra( "name")
-       textview.setText(""+msg)
+        textview.setText(""+msg)
 //********************NAVIGATION BAR***************************************
         val help_button : Button = findViewById<Button>(R.id.help)
         val appointment_button : Button = findViewById<Button>(R.id.create)

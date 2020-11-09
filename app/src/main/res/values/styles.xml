@@ -33,5 +33,12 @@
         <item name="android:paddingEnd">@dimen/layout_padding</item>
     </style>
 
+    <style name="home">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/fira_sans_condensed_medium</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
 
 </resources>
