@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" >
 
+            </style>
+
+    <style name="Signupfont">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:fontFamily">@font/fira_sans_condensed_medium</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="whitebackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">639dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:background">@drawable/frthistime</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:fadingEdge">horizontal|vertical</item>
+        <item name="android:requiresFadingEdge">horizontal</item>
+    </style>
+
+    <style name="Background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingStart">@dimen/layout_padding</item>
+        <item name="android:paddingEnd">@dimen/layout_padding</item>
     </style>
 
 

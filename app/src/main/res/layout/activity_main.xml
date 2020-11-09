@@ -1,24 +1,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    android:orientation="vertical"
-    android:paddingStart="@dimen/layout_padding"
-    android:paddingEnd="@dimen/layout_padding"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    style="@style/Background">
 
     <FrameLayout
         android:id="@+id/secondBg"
-        android:layout_width="match_parent"
-        android:layout_height="639dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"
-        android:background="@drawable/frthistime"
-        android:fadeScrollbars="true"
-        android:fadingEdge="horizontal|vertical"
-        android:requiresFadingEdge="horizontal">
+        style="@style/whitebackground">
 
 
         <ImageView
@@ -73,7 +61,7 @@
             android:textColor="@color/grey" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="520dp"

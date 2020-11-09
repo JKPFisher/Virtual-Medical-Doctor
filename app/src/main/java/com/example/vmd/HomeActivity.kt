@@ -2,6 +2,7 @@ package com.example.vmd
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -10,10 +11,19 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val textview : TextView= findViewById<TextView>(R.id.textView2)
+       val textview : TextView= findViewById<TextView>(R.id.textView2)
         val intent : Intent = getIntent()
         val msg : String? = intent.getStringExtra( "name")
-        textview.setText("Hello Android "+msg)
+       textview.setText("Hello Android "+msg)
+
+        val settings_button : Button = findViewById<Button>(R.id.settings)
+
+        settings_button.setOnClickListener{
+
+            val intent = Intent(this, SettingsActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 
 }

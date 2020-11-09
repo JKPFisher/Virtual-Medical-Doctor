@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <FrameLayout
+        android:id="@+id/signupbg"
+        style="@style/whitebackground"
+        android:layout_width="wrap_content"
+        android:layout_height="639dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/frthistime"
+        android:fadeScrollbars="true"
+        android:fadingEdge="horizontal|vertical"
+        android:requiresFadingEdge="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_revert" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/Signupfont"
+            android:text="@string/textbox2signup"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/Signupfont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="@string/email_address"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/Signupfont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <TextView
+            style="@style/Signupfont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:text="@string/re_enter_password"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/re_enter_password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:shadowColor="@color/grey"
+            android:text="@string/create_an_account"
+            app:backgroundTint="@color/pink" />
+    </FrameLayout>
+</LinearLayout>
