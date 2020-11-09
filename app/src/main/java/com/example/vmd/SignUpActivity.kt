@@ -11,7 +11,7 @@ class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
-        val intent : Intent = getIntent()
+
 
         val back_button :Button = findViewById<Button>(R.id.backbuttonsignup)
 
@@ -21,9 +21,18 @@ class SignUpActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+
+
+    val create_button :Button = findViewById<Button>(R.id.button2)
+
+    create_button.setOnClickListener{
+
+        val intent = Intent(this, CreateActivity::class.java)
+        startActivity(intent)
+
     }
 
 
 
-
-}
+}  }

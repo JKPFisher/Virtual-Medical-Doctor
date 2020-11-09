@@ -11,12 +11,8 @@
 
         <ImageView
             android:id="@+id/star_image"
-            android:layout_width="match_parent"
-            android:layout_height="170dp"
-            android:layout_margin="20dp"
-            android:layout_marginTop="16dp"
-            android:contentDescription="@string/vmd_logo"
-            app:srcCompat="@drawable/df" />
+            app:srcCompat="@drawable/df"
+            style="@style/logo" />
 
         <EditText
             android:id="@+id/EmailAddress"
@@ -42,13 +38,9 @@
 
         <Button
             android:id="@+id/loginbutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="350dp"
             android:text="@string/login_button"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            app:backgroundTint="@color/pink" />
+            app:backgroundTint="@color/pink"
+            style="@style/buttons" />
 
         <TextView
             android:id="@+id/textView3"
@@ -65,6 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="520dp"
+            android:fontFamily="@font/fira_sans_condensed_medium"
             android:text="@string/create_an_account"
             app:backgroundTint="@color/purple" />
 

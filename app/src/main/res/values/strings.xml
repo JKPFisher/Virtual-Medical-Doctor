@@ -19,5 +19,7 @@
     <string name="reminders">Reminders</string>
     <string name="type_here">Type here...</string>
     <string name="question_one">What symptoms are you feeling?</string>
+    <string name="successful_creation">Your account has been created, \n you may now log in</string>
+    <string name="login_page">login page</string>
 
 </resources>

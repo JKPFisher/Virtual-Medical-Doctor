@@ -40,5 +40,22 @@
         <item name="android:textColor">@color/grey</item>
     </style>
 
+    <style name="buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">350dp</item>
+        <item name="android:fontFamily">@font/fira_sans_condensed_medium</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:contentDescription">@string/vmd_logo</item>
+    </style>
+
 
 </resources>
