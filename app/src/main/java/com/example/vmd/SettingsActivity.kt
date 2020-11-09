@@ -26,10 +26,7 @@ class SettingsActivity : AppCompatActivity() {
 
         }
 
-        val textview : TextView = findViewById<TextView>(R.id.textView2)
-        val intent : Intent = getIntent()
-        val msg : String? = intent.getStringExtra( "name")
-        textview.setText(""+msg)
+
 //********************NAVIGATION BAR***************************************
         val help_button : Button = findViewById<Button>(R.id.help)
         val appointment_button : Button = findViewById<Button>(R.id.create)
