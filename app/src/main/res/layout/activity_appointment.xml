@@ -34,35 +34,35 @@
             android:layout_width="63dp"
             android:layout_height="match_parent"
             android:layout_marginStart="30dp"
-            android:background="@android:drawable/ic_menu_preferences" />
+            android:background="@drawable/_1" />
 
         <Button
             android:id="@+id/create"
             android:layout_width="63dp"
             android:layout_height="match_parent"
             android:layout_marginStart="100dp"
-            android:background="@android:drawable/ic_menu_my_calendar" />
+            android:background="@drawable/_22" />
 
         <Button
             android:id="@+id/reminder"
-            android:layout_width="63dp"
+            android:layout_width="71dp"
             android:layout_height="match_parent"
             android:layout_marginStart="240dp"
-            android:background="@android:drawable/ic_menu_recent_history" />
+            android:background="@drawable/_3" />
 
         <Button
             android:id="@+id/homebutton"
-            android:layout_width="63dp"
+            android:layout_width="67dp"
             android:layout_height="match_parent"
             android:layout_marginStart="170dp"
-            android:background="@android:drawable/ic_menu_mylocation" />
+            android:background="@drawable/_4" />
 
         <Button
             android:id="@+id/help"
-            android:layout_width="63dp"
+            android:layout_width="66dp"
             android:layout_height="match_parent"
             android:layout_marginStart="310dp"
-            android:background="@android:drawable/ic_menu_help" />
+            android:background="@drawable/_5" />
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 

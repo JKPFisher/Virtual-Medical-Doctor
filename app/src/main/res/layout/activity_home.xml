@@ -36,52 +36,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.07" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="400dp"
-        android:layout_height="57dp"
-        android:background="#B388FF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <Button
-            android:id="@+id/settings"
-            android:layout_width="63dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="30dp"
-            android:background="@android:drawable/ic_menu_preferences" />
-
-        <Button
-            android:id="@+id/create"
-            android:layout_width="63dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="100dp"
-            android:background="@android:drawable/ic_menu_my_calendar" />
-
-        <Button
-            android:id="@+id/reminder"
-            android:layout_width="63dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="240dp"
-            android:background="@android:drawable/ic_menu_recent_history" />
-
-        <Button
-            android:id="@+id/homebutton"
-            android:layout_width="63dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="170dp"
-            android:background="@android:drawable/ic_menu_mylocation" />
-
-        <Button
-            android:id="@+id/help"
-            android:layout_width="63dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="310dp"
-            android:background="@android:drawable/ic_menu_help" />
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
-
     <EditText
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="wrap_content"
@@ -111,6 +65,51 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.157" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="400dp"
+        android:layout_height="57dp"
+        android:background="#B388FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/_1" />
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/_2" />
+
+        <Button
+            android:id="@+id/reminder"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="240dp"
+            android:background="@drawable/_3" />
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="170dp"
+            android:background="@drawable/_44" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="310dp"
+            android:background="@drawable/_5" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
